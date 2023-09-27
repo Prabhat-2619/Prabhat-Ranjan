@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form1</title>
+    </head>
+    <body>
+        <table border="8">
+            <tr>
+                <td rowspan="100">
+                <form action="gallery.html" method="get">
+                    <p>
+                  <h2 style="color:red;background-color:greenyellow">Student Registration Form</h2>
+                  <u style="color:red"><i style="color:green"><b><h3>Fill out the form for registration</h3></b></i></u><br/><br/>
+                  <!--Name Section-->
+                  <label style="color:red">Name</label>
+                  <!--Here in input tag name is different for each box.if name is same then any 
+                problem occured->no  -->
+                  <input name="uname" placeholder="First" maxlength="200" value="Prabhat" disabled/>
+                  <input name="uname" placeholder="Middle" maxlength="200"/>
+                  <input name="uname" placeholder="Last" maxlength="200"/><br/><br/>
+                  <!--Birth Section-->
+                  <label  style=" color:darkmagenta">Birth Date</label><br/>
+                  <input type="datetime-local" /><br/><br/>
+                  <!--Gender-->
+                  <label style="color: slateblue;">Gender</label><br/>
+                  <!--<input name="uname" placeholder=" the Gender"/>-->
+                      <select>
+                    <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select><br/><br/>
+                <!--Address-->
+                   <label style="color: chocolate;">Address</label><br/>
+                    <textarea rows="20" cols="100%"></textarea><br/>
+                    <!--Country-->
+                    <label style="color: red">Country</label>
+                    <select>
+                        <option>India</option><option>Nepal</option><option>USA</option><option>Australia</option>
+                        <option>UAE</option><option>Others</option>
+                    </select>
+                    <!--State-->
+                    <label style="color:violet;">State</label>
+                    <select><option>Bihar</option><option>California</option><option>Kathmandu</option><option>Canbera</option>
+                    <option>Others</option></select>
+                    <!--City-->
+                    <label style="color: violet;">City</label>
+                    <select>
+                        <option>Saran(Chhapra)</option><option>Muzaffarpur</option><option>Kathamndu</option><option>Canbera</option>
+                        <option>California</option><optiom>Othera</optiom>
+                    </select>
+                    <!--Pincode-->
+                    <label style="color:crimson">Postel</label>
+                    <input name="Postal code" placeholder="type your pincode" maxlength="200"/><br/><br/>
+                    <!--Email-->
+                    <label style="color: darkmagenta;">Email</label>
+                    <input name="Email" type="Email" placeholder="xyz@gmail.com" maxlength="200"/>
+                    <!--Pssword-->
+                    <label style="color: crimson;">Password</label>
+                    <input type="password"placeholder="password" maxlength="150"/><br/><br/>
+                    <!--Phone-->
+                    <label style="color: brown;">Phone</label>
+                    <input name="Phone" type="password" placeholder="Enter Phone Number" maxlength="11"/><br/><br/>
+                    <!--Courses-->
+                    <label style="color: chocolate;">Courses</label><br/>
+                    <input type="checkbox" name="c" value="C Program" />C<br/>
+                    <input type="checkbox" name="CPP" value="C++"/>CPP<br/>
+                    <input type="checkbox" name="java" value="java"/>java<br/>
+                    <input type="checkbox" name="py"  value="Python"/>Python<br/>
+                    <input type="checkbox" name="Ds" value="DSA"/>DSA<br/><br/>
+                    <!--Image-->
+                    <label style="color: darkgoldenrod;">Upload Image</label>
+                    <input nmae="file" type="file" name="image"/><br/><br/>
+                    <!--Comments-->
+                    <label style="color: chocolate;">Comments</label><br/>
+                    <textarea></textarea><br/><br/>
+                    <!--Reset Form-->
+                    <label style="color: darkmagenta;">Reset Form</label>
+                    <input type="reset" /><br/><br/>
+                    <!--Submit Application Form-->
+                    <label style="color: chocolate;">Submit</label>
+                    <input type="submit" />
+                   </p>
+                </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
